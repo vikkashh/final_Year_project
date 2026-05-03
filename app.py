@@ -39,7 +39,7 @@ st.markdown("""
 st.markdown('<p class="title">🔧 Structural Health Monitoring System</p>', unsafe_allow_html=True)
 
 # ---- Image Banner ----
-st.image("https://images.unsplash.com/photo-1581093588401-22c5b7b5c88c", width="stretch")
+st.image("https://images.unsplash.com/photo-1581093588401-22c5b7b5c88c", use_column_width=True)
 
 st.write("### Upload vibration data and analyze bolt condition")
 
